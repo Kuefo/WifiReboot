@@ -1,16 +1,16 @@
-To interact with this script using nRF Connect (for Android or iOS) or LightBlue (for iOS):
+## To interact with this script using nRF Connect (for Android or iOS) or LightBlue (for iOS):
  
-nRF Connect
-Open nRF Connect on your smartphone.
-Scan for Bluetooth devices and connect to your CircuitPython device (it should be advertising as a BLE UART service).
-Once connected, go to the "UART" service and find the UART characteristic.
-Write the string "reboot" to this characteristic and send it. This should trigger the reboot request.
+## nRF Connect
+## Open nRF Connect on your smartphone.
+## Scan for Bluetooth devices and connect to your CircuitPython device (it should be advertising as a BLE UART service).
+## Once connected, go to the "UART" service and find the UART characteristic.
+## Write the string "reboot" to this characteristic and send it. This should trigger the reboot request.
  
-LightBlue
-Open LightBlue on your iPhone.
-Scan for Bluetooth devices and connect to your CircuitPython device.
-Explore the services and look for the UART service.
-Write the string "reboot" to the appropriate characteristic to trigger the reboot request.
+## LightBlue
+## Open LightBlue on your iPhone.
+## Scan for Bluetooth devices and connect to your CircuitPython device.
+## Explore the services and look for the UART service.
+## Write the string "reboot" to the appropriate characteristic to trigger the reboot request.
  
 _______________________________________________________________________________________________________________________________________
 import time
